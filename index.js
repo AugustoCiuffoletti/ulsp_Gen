@@ -10,6 +10,7 @@ var baseURL =
 var aMap = L.map('mapid', {
   center: L.latLng(centerLat, centerLong),
   zoom: 15,
+  zoomControl: false,
   layers: [L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')]
 });
 // An array of markers
